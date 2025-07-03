@@ -7,8 +7,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Icon name="Landmark" size={24} className="text-bank-gold" />
-              <h3 className="text-xl font-bold">БанкРуси</h3>
+              <span className="text-bank-gold text-xl">🐵</span>
+              <h3 className="text-xl font-bold">MonkeyBank</h3>
             </div>
             <p className="text-gray-300 mb-4">
               Надёжный банк с 25-летней историей. Лицензия ЦБ РФ №1234.
@@ -84,7 +84,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Icon name="Mail" size={16} className="text-bank-gold mr-2" />
-                <span>info@bankrusi.ru</span>
+                <span>info@monkeybank.ru</span>
               </li>
               <li className="flex items-center">
                 <Icon
@@ -99,7 +99,9 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 БанкРуси. Все права защищены. Лицензия ЦБ РФ №1234.</p>
+          <p>
+            &copy; 2024 MonkeyBank. Все права защищены. Лицензия ЦБ РФ №1234.
+          </p>
         </div>
       </div>
     </footer>

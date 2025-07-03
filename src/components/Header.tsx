@@ -7,8 +7,8 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Icon name="Landmark" size={32} className="text-bank-gold" />
-            <h1 className="text-2xl font-bold">БанкРуси</h1>
+            <span className="text-bank-gold text-2xl">🐵</span>
+            <h1 className="text-2xl font-bold">MonkeyBank</h1>
           </div>
 
           <nav className="hidden md:flex space-x-8">
